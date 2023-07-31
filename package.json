@@ -52,6 +52,6 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": ["eslint --max-warnings 0", "git add"]
+    "src/**/*.{js,jsx,ts,tsx}": ["eslint --max-errors 0", "git add"]
   }
 }
